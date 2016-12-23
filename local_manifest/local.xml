@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+       <remote  name="luaworks"
+          fetch="ssh://mannamalai@gerrit.logitech.com:29418/" />
+
+       <project path="external/luaworks" name="dhg/kiki/luaworks"  remote="luaworks" revision="master"/>
+       <project path="kernel" name="dhg/kiki/kernel"  remote="luaworks" revision="master"/>
+</manifest>
