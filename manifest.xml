@@ -2,7 +2,7 @@
 <manifest>
 
        <remote  name="luaworks"
-          fetch="ssh://mannamalai@gerrit.logitech.com:29418/" />
+          fetch="ssh://divakar@gerrit.logitech.com:29418/" />
 
        <project path="external/luaworks" name="dhg/kiki/luaworks"  remote="luaworks" revision="master"/>
        <project path="kernel" name="dhg/kiki/kernel"  remote="luaworks" revision="master"/>
